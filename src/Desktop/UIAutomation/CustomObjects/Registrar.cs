@@ -35,7 +35,35 @@ namespace Axe.Windows.Desktop.UIAutomation.CustomObjects
         {
             // This code is currently not thread safe.
             if (sDefaultInstance == null)
+            {
                 sDefaultInstance = new Registrar();
+                UIAutomationPropertyInfo[] props =
+                {
+                    new UIAutomationPropertyInfo {
+                        guid = new Guid("6B55247F-6BAF-460C-9C3E-388E7161A7E9"),
+                        pProgrammaticName = "SelectionStart",
+                        type = UIAutomationType.UIAutomationType_Int
+                    },
+                    new UIAutomationPropertyInfo {
+                        guid = new Guid("F0CD6926-AA86-4EBF-BDCC-7345C5D98EC6"),
+                        pProgrammaticName="SelectionLength",
+                        type=UIAutomationType.UIAutomationType_Int
+                    }
+                };
+                UIAutomationPatternInfo info = new UIAutomationPatternInfo
+                {
+                    guid = new Guid("{b85fddea-d38f-44d6-ae42-0ca3cf0433f1}"),
+                    pProgrammaticName = "CaretPositionPattern",
+                    clientInterfaceId = new Guid("{0fc33fd3-3874-4a32-a530-0ebe937d4419}"),
+                    providerInterfaceId = new Guid("{0fc33fd3-3874-4a32-a530-0ebe937d4419}"),
+                    cProperties = 2,
+                    pProperties = props
+                };
+                int patternId=0, patternAvailableId=0;
+                int[] patternPropertyIds = new int[3];
+                sDefaultInstance._uiaRegistrar.RegisterPattern(ref info, out patternId, out patternAvailableId, 2, patternPropertyIds, 0, null);
+                Console.WriteLine($"Registered custom pattern with pattern ID {patternId} and is pattern available property ID {patternAvailableId}.");
+            }
             return sDefaultInstance;
         }
 
