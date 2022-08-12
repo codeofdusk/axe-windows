@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Bases;
 using Axe.Windows.Core.Exceptions;
@@ -217,7 +217,7 @@ namespace Axe.Windows.Rules.PropertyConditions
             var description = string.Format(CultureInfo.InvariantCulture, ConditionDescriptions.AllChildren, c);
 
             // we must check for the existence of children because MatchAnyChild will return false if there are no children
-            // and the nott operator (~) below will cause this function to return true erroneously when no children exist.
+            // and the not operator (~) below will cause this function to return true erroneously when no children exist.
             return (ChildrenExist & ~AnyChild(~c))[description];
         }
 

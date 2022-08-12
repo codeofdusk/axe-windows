@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Bases;
 using Axe.Windows.Core.Misc;
@@ -125,7 +125,7 @@ namespace Axe.Windows.Desktop.UIAutomation
         /// Clone A11yElement for selection
         /// </summary>
         /// <param name="e"></param>
-        /// <returns>if element is not live, don't allow clow</returns>
+        /// <returns>if element is not live, don't allow clone</returns>
         public static A11yElement CloneForSelection(this A11yElement e)
         {
             if (e == null) return null;

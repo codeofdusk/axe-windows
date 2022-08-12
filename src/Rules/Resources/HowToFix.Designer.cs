@@ -19,7 +19,7 @@ namespace Axe.Windows.Rules.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class HowToFix {
@@ -107,8 +107,8 @@ namespace Axe.Windows.Rules.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If the element is offscreen, set its IsOffscreen property to TRUE.
-        ///If the element is onscreen, provide a BoundingRectangle property..
+        ///   Looks up a localized string similar to If the element is off-screen, set its IsOffscreen property to TRUE.
+        ///If the element is on-screen, provide a BoundingRectangle property..
         /// </summary>
         internal static string BoundingRectangleNotNull {
             get {
@@ -550,7 +550,7 @@ namespace Axe.Windows.Rules.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The IsKeyboardFocusable property for a custome element should be true when the element supports actionable patterns..
+        ///   Looks up a localized string similar to The IsKeyboardFocusable property for a custom element should be true when the element supports actionable patterns..
         /// </summary>
         internal static string IsKeyboardFocusableForCustomShouldBeTrue {
             get {

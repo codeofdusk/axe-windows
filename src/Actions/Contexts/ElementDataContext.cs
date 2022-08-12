@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Actions.Enums;
 using Axe.Windows.Core.Bases;
@@ -34,7 +34,7 @@ namespace Axe.Windows.Actions.Contexts
         public Dictionary<int, A11yElement> Elements { get; internal set; }
 
         /// <summary>
-        /// Root Element in tree hierarchy. it is the top most anscestor.
+        /// Root Element in tree hierarchy. it is the top most      .
         /// </summary>
         public A11yElement RootElment { get; internal set; }
 
@@ -98,7 +98,7 @@ namespace Axe.Windows.Actions.Contexts
                         }
                         else
                         {
-                            // so far when it gets into test, it works ok.
+                            // so far when it gets into test, it works OK.
                             // it will keep the same perf when switch back to Live from Test.
                             this.Elements.Values.AsParallel().ForAll(e => e.Dispose());
                         }

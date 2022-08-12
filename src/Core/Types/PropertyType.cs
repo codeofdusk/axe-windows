@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using System.Text;
 
@@ -7,7 +7,7 @@ namespace Axe.Windows.Core.Types
     /// <summary>
     /// Class for Element Property Type IDs
     /// List is built based on UIAutomationClient.h
-    /// Any of pattern property should be modifiled like below.
+    /// Any of pattern property should be modified like below.
     ///
     /// UIA_ValueValuePropertyId => UIA_ValuePattern_ValuePropertyId
     ///

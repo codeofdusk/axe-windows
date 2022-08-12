@@ -150,7 +150,7 @@ namespace Axe.Windows.DesktopTests.ColorContrastAnalyzer
         }
 
         /**
-         * Note in this test case we have Mide confidence. As such, we also are asserting that the color is only
+         * Note in this test case we have mid confidence. As such, we also are asserting that the color is only
          * approximately what we expect, this allows our algorithm a little flexibility, without having to modify
          * these tests every time we sneeze on our configuration file.
          */

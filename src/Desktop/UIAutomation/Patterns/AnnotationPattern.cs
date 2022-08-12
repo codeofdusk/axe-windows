@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Attributes;
 using Axe.Windows.Core.Bases;
@@ -10,7 +10,7 @@ namespace Axe.Windows.Desktop.UIAutomation.Patterns
 {
     /// <summary>
     /// Control pattern wrapper for Annotation Control Pattern
-    /// No actiona is available
+    /// No action is available
     /// https://msdn.microsoft.com/en-us/library/windows/desktop/hh448769(v=vs.85).aspx
     /// </summary>
     public class AnnotationPattern : A11yPattern

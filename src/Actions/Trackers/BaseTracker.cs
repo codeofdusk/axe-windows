@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Actions.Enums;
 using Axe.Windows.Core.Bases;
@@ -85,7 +85,7 @@ namespace Axe.Windows.Actions.Trackers
         }
 
         /// <summary>
-        /// Select the specified element if it meets all eligibilty requirements
+        /// Select the specified element if it meets all eligibility requirements
         /// </summary>
         /// <param name="element">The potential element to select</param>
         /// <returns>true if the element was selected</returns>

@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ namespace Axe.Windows.Desktop.Settings
 
 #pragma warning disable CA2227 // Collection properties should be read only
 #pragma warning disable CA1002 // Do not expose generic lists
-        // these properties are serialized/deserialized via json. so can't make it readonly or an IList
+        // these properties are serialized/deserialized via json. so can't make it read-only or an IList
 
         /// <summary>
         /// Selected elements' unique IDs

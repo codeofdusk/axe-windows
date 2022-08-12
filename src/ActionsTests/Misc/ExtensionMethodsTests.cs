@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Actions.Misc;
 using Axe.Windows.Core.Bases;
@@ -36,7 +36,7 @@ namespace Axe.Windows.ActionsTests.Misc
         /// <summary>
         /// Create 10 elements with bounding rectangle (i, i, i, i) from [0, 9]
         /// See which one is identified as smallest enclosing area of (5, 5)
-        /// Normal answer (3, 3, 3, 3) is offscreen
+        /// Normal answer (3, 3, 3, 3) is off-screen
         /// </summary>
         [TestMethod()]
         public void GetSmallestElementFromPointTest_Offscreen()

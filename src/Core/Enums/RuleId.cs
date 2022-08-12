@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 namespace Axe.Windows.Core.Enums
@@ -28,7 +28,7 @@ namespace Axe.Windows.Core.Enums
         ButtonShouldHavePatterns, // check whether button has at least one of three patterns(Invoke,Toggle,ExpandCollapse)
         ButtonInvokeAndTogglePatterns, // Button should not have Invoke and Toggle patterns together.
         ButtonInvokeAndExpandCollapsePatterns, // Button may have Invoke and ExpandCollapse patterns together. (warning)
-        ButtonToggleAndExpandCollapsePatterns, // Button should have have Toggle and ExpandCollapse patterns together.
+        ButtonToggleAndExpandCollapsePatterns, // Button should have Toggle and ExpandCollapse patterns together.
 
         SiblingUniqueAndFocusable,
         SiblingUniqueAndNotFocusable,

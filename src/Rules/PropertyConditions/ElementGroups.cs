@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Bases;
 using Axe.Windows.Core.Misc;
@@ -113,7 +113,7 @@ namespace Axe.Windows.Rules.PropertyConditions
             // the ignore list used to include SpinButton, which was removed below because that seems like an error.
             // The Tree type was also ignored. It was moved to the EmptyContainer condition.
             // exclude custom from this scan since Custom control type behavior is a matter of App implementation.
-            // titlebar and image are added here based on the V1 rule since the two are causing extra erros on Office apps.
+            // titlebar and image are added here based on the V1 rule since the two are causing extra errors on Office apps.
             var ignoreTypes = AppBar | Custom | DataItem | Group | Image | Header | Pane | Separator | StatusBar | TitleBar | Thumb | Text | ToolBar | ToolTip | Window;
 
             ignoreTypes |= (ListItem & Parent(ComboBox)) | Container;

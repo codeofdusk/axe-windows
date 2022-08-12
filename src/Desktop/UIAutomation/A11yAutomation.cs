@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Bases;
 using Axe.Windows.Core.Enums;
@@ -240,7 +240,7 @@ namespace Axe.Windows.Desktop.UIAutomation
             // make sure that we have an app first
             if (app != null)
             {
-                // get first item under Desktop. if app is not Desktop, then it is ok to take it as is.
+                // get first item under Desktop. if app is not Desktop, then it is OK to take it as is.
                 if (app.IsRootElement())
                 {
                     app = app.Children.First();

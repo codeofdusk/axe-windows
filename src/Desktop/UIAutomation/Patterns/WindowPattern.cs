@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Attributes;
 using Axe.Windows.Core.Bases;
@@ -44,9 +44,9 @@ namespace Axe.Windows.Desktop.UIAutomation.Patterns
         }
 
         /// <summary>
-        /// Wait for Input Idel
+        /// Wait for no input (i.e. idle)
         /// </summary>
-        /// <param name="ms">miliseconds</param>
+        /// <param name="ms">milliseconds</param>
         [PatternMethod]
         public void WaitForInputIdle(int ms)
         {

@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Actions.Attributes;
 using Axe.Windows.Actions.Contexts;
@@ -21,7 +21,7 @@ namespace Axe.Windows.Actions
     /// - Property
     /// - Pattern
     /// - etc
-    /// When Actions needs data(object) to do anything(excute/select and etc), they should get data from Actions.
+    /// When Actions needs data(object) to do anything(execute/select and etc), they should get data from Actions.
     /// the Action caller will pass the ID of data to use than actual object.
     /// </summary>
     [InteractionLevel(UxInteractionLevel.NoUxInteraction)]

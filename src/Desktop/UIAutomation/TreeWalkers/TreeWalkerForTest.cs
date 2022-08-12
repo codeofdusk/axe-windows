@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
+﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 using Axe.Windows.Core.Bases;
 using Axe.Windows.Core.Enums;
@@ -29,7 +29,7 @@ namespace Axe.Windows.Desktop.UIAutomation.TreeWalkers
         private readonly BoundedCounter _elementCounter;
 
         /// <summary>
-        /// List of all Elements including SelectedElement and descendents
+        /// List of all Elements including SelectedElement and descendants
         /// </summary>
         public IList<A11yElement> Elements { get; }
 
@@ -79,7 +79,7 @@ namespace Axe.Windows.Desktop.UIAutomation.TreeWalkers
 
             PopulateChildrenTreeNode(this.SelectedElement, ancestry.Last, ancestry.NextId);
 
-            // do population of ancesters all togather with children
+            // do population of ancestors all together with children
             var list = new List<A11yElement>(this.Elements);
             foreach (var item in ancestry.Items)
             {
